@@ -1,7 +1,13 @@
+// rectangle for vreating maze
+
 ArrayList<cell>grid=new ArrayList<cell>();
 ArrayList<cell>stack=new ArrayList<cell>();
+// number of rows
 int rows;
+// number of columns
 int columns;
+
+// width of each sqare
   int w=20;
 cell current;
 void setup(){
